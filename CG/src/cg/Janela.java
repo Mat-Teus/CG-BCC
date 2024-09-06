@@ -24,5 +24,7 @@ public class Janela extends JFrame{
             
         //Redimensionando a tela baseada no computador
             janela.pack();
+            
+            gamePanel.startGameThread();
         }
 }
